@@ -1,0 +1,21 @@
+:root {
+  --cor-p01: #ffbb00;
+  --cor-p02: #e4a30b;
+  --cor-p03: #a66f00;
+  --cor-p04: #664400;
+  --cor-p05: #332200;
+  /* Cores Secundarias */
+  --cor-white: #fff;
+  --cor-s01: #f7f7f7;
+  --cor-s02: #ededed;
+  --cor-s03: #dedede;
+  --cor-s04: #ccc;
+  --cor-s05: #b2b2b2;
+  --cor-s06: #9c9c9c;
+  --cor-s07: #717171;
+  --cor-s08: #595959;
+  --cor-s09: #484848;
+  --cor-s10: #2e2e2e;
+  --cor-s11: #111;
+  --cor-s12: #000;
+}
