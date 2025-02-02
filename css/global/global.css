@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
 }
 
 a {
@@ -15,7 +15,7 @@ ul {
   list-style: none;
 }
 
-img {
+img:not([src$=".svg"]) {
   display: block;
   max-width: 100%;
   border-radius: 4px;
@@ -23,6 +23,11 @@ img {
 
 .container {
   max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.container-large {
+  max-width: 1400px;
   margin: 0 auto;
   padding: 2rem;
 }
