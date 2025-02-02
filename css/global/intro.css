@@ -31,6 +31,7 @@
 .introducao img {
   object-fit: cover;
   height: 100%;
+  width: 100%;
 }
 
 /* Intro Styles Media Queries*/

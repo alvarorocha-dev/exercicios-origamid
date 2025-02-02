@@ -7,6 +7,7 @@
 @import "./global/header.css";
 @import "./global/intro.css";
 @import "./global/bicicletas-lista.css";
+@import "./global/tecnologia.css";
 
 :root {
   --transition: all linear 0.3s;

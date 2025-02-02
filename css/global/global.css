@@ -15,10 +15,21 @@ ul {
   list-style: none;
 }
 
-img:not([src$=".svg"]) {
+img:not(.logo) {
   display: block;
   max-width: 100%;
   border-radius: 4px;
+}
+
+/* img:not([src$=".svg"]) {
+  display: block;
+  max-width: 100%;
+  border-radius: 4px;
+} */
+
+.logo {
+  display: block;
+  max-width: 100%;
 }
 
 .container {
