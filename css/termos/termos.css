@@ -1,0 +1,19 @@
+.termos {
+  color: var(--cor-s11);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.termos h2 {
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.termos p + h2 {
+  margin-top: 2rem;
+}
+
+.termos p {
+  margin-bottom: 1rem;
+  max-width: 80ch;
+}

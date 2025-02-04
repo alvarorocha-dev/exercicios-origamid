@@ -10,6 +10,11 @@
   gap: 2rem;
   align-items: center;
 }
+
+#seguros .seguros {
+  padding-top: 0;
+}
+
 .seguros h2 {
   grid-column: 1 / -1;
   color: var(--cor-white);
@@ -20,6 +25,7 @@
   padding: 3rem 2rem 3rem 3rem;
   display: grid;
   grid-template-columns: 1fr auto;
+  border-radius: 4px;
 }
 
 .seguros-item h3 {

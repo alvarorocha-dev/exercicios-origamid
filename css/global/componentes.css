@@ -28,6 +28,26 @@
   background: var(--cor-s09);
 }
 
+.btn.seta {
+  display: flex;
+  align-items: center;
+  
+}
+
+.btn.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 0.5rem;
+  background: url(../../img/icones/seta.svg);
+  transition: var(--transition);
+}
+
+.btn.seta:hover::after {
+  transform: translateX(0.3rem);
+}
+
 @media (max-width: 800px) {
   .btn {
     font-size: 1rem;
@@ -52,4 +72,31 @@
 
 .link:hover {
   color: var(--cor-white);
+}
+
+.titulo-bg {
+  background: var(--cor-s11);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.titulo p {
+  margin-bottom: 0.2rem;
+  color: var(--cor-s05);
+}
+
+.titulo h1 {
+  color: var(--cor-white);
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+  }
 }
