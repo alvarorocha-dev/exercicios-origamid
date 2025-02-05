@@ -15,6 +15,11 @@ ul {
   list-style: none;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 img:not(.logo) {
   display: block;
   max-width: 100%;
