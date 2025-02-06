@@ -19,7 +19,9 @@
 @import "./contato/contato.css";
 @import "./contato/lojas.css";
 @import "./global/formulario.css";
+@import "./orcamento/orcamento.css";
 
 :root {
   --transition: all linear 0.3s;
+  --box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
