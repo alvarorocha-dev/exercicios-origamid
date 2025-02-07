@@ -1,5 +1,6 @@
 .introducao-bg {
-  background: var(--cor-s12);
+  background: var(--cor-s12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 4rem left 2rem;
   color: #fff;
 }
 
